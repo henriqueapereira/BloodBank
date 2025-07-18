@@ -1,0 +1,15 @@
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\bin\Debug\net9.0\BloodBank.Application.deps.json
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\bin\Debug\net9.0\BloodBank.Application.dll
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\bin\Debug\net9.0\BloodBank.Application.pdb
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\bin\Debug\net9.0\BloodBank.Domain.dll
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\bin\Debug\net9.0\BloodBank.Domain.pdb
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.csproj.AssemblyReference.cache
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.AssemblyInfoInputs.cache
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.AssemblyInfo.cs
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.csproj.CoreCompileInputs.cache
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBan.51D49F74.Up2Date
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.dll
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\refint\BloodBank.Application.dll
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.pdb
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\ref\BloodBank.Application.dll
