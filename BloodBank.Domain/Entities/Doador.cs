@@ -46,5 +46,25 @@ namespace BloodBank.Domain.Entities
             FatorRh = fatorRh;
             Endereco = endereco;
         }
+
+        public void Update(
+            string nomeCompleto,
+            string email,
+            DateTime dataNascimento,
+            string genero,
+            double peso,
+            string tipoSanguineo,
+            string fatorRh
+            
+        )
+        {
+            NomeCompleto = nomeCompleto;
+            Email = email;
+            DataNascimento = dataNascimento;
+            Genero = genero;
+            Peso = peso;
+            TipoSanguineo = tipoSanguineo;
+            FatorRh = fatorRh;
+        }
     }
 }

@@ -4,17 +4,18 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BloodBank.Domain.Entities
+namespace BloodBank.Application.Models.Doador
 {
-    public class Doacao
+    public class CreateDoacaoInputModel
     {
-        public int Id { get; set; }
+        [Required]
         public int DoadorId { get; set; }
         
+        [Required]
         public DateTime DataDoacao { get; set; }
 
+        [Required]
+        [Range(420, 470, ErrorMessage = "A doação deve conter entre 420 e 470 ml.")]
         public int QuantidadeML { get; set; }
-
-        public Doador Doador { get; set; } = null!;
     }
 }

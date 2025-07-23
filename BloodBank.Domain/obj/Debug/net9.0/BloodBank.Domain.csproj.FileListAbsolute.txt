@@ -9,3 +9,4 @@ C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Domain\obj\Debug\ne
 C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Domain\obj\Debug\net9.0\refint\BloodBank.Domain.dll
 C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Domain\obj\Debug\net9.0\BloodBank.Domain.pdb
 C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Domain\obj\Debug\net9.0\ref\BloodBank.Domain.dll
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Domain\obj\Debug\net9.0\BloodBank.Domain.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Deb
 C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\refint\BloodBank.Application.dll
 C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.pdb
 C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\ref\BloodBank.Application.dll
+C:\Users\Henrique A Pereira\Desktop\dev2\BloodBank\BloodBank.Application\obj\Debug\net9.0\BloodBank.Application.sourcelink.json

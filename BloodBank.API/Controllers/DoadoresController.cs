@@ -24,15 +24,32 @@ namespace BloodBank.API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<DoadorViewModel>>> GettAll()
         {
-            var doadores = await _doadorService.ObterTodosAsync();
+            var doadores = await _doadorService.GetAll();
             return Ok(doadores);
         }
 
-        [HttpPost]
-        public async Task<ActionResult> Post([FromBody]CreateDoadorInputModel model)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<List<DoadorViewModel>>> GetById(int id)
         {
-            var novoDoador = await _doadorService.CriarAsync(model.ToEntity());   
+            var doador = await _doadorService.GetById(id);
+            return Ok(doador);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] CreateDoadorInputModel model)
+        {
+            var novoDoador = await _doadorService.Insert(model);
+
             return Ok();
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Put(int id, [FromBody] UpdateDoadorInputModel model)
+        {
+            await _doadorService.Update(id, model);
+
+            return Ok();
+        }
+        
     }
 }
