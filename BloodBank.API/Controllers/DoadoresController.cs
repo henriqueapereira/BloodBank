@@ -36,7 +36,7 @@ namespace BloodBank.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] CreateDoadorInputModel model)
+        public async Task<ActionResult<DoadorViewModel>> Post([FromBody] CreateDoadorInputModel model)
         {
             var novoDoador = await _doadorService.Insert(model);
 
@@ -50,6 +50,22 @@ namespace BloodBank.API.Controllers
 
             return Ok();
         }
-        
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            await _doadorService.Delete(id);
+
+            return Ok();
+        }
+
+        //public async Task<List<DoacaoViewModel>> GetHistoricoDoacoes(int doadorId)
+        [HttpGet("{id}/listarDoacoes")]
+        public async Task<ActionResult<List<DoacaoViewModel>>> GetHistoricoDoacoes(int id)
+        {
+            var lista = await _doadorService.GetHistoricoDoacoes(id);
+
+            return Ok(lista);
+        }
     }
 }

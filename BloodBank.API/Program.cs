@@ -22,9 +22,12 @@ builder.Services.AddDbContext<BloodBankDbContext>(options =>
 builder.Services.AddScoped<IDoadorService, DoadorService>();
 builder.Services.AddScoped<IDoacaoService, DoacaoService>();
 
+builder.Services.AddHttpClient<ViaCepService>();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 

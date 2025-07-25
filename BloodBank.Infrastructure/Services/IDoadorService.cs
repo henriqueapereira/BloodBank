@@ -11,8 +11,9 @@ namespace BloodBank.Infrastructure.Services
     {
         Task<List<DoadorViewModel>> GetAll();
         Task<DoadorViewModel?> GetById(int id);
-        Task<Doador> Insert( CreateDoadorInputModel model);
+        Task<DoadorViewModel> Insert(CreateDoadorInputModel model);
         Task Update(int id, UpdateDoadorInputModel doador);
         Task Delete(int id);
+        Task<List<DoacaoViewModel>> GetHistoricoDoacoes(int doadorId);
     }
 }

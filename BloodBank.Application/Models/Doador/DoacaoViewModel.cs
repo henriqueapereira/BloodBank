@@ -13,6 +13,19 @@ namespace BloodBank.Application.Models.Doador
         public DateTime DataDoacao { get; set; }
         public int QuantidadeML { get; set; }
 
+        //retorna uma lista
+        public static List<DoacaoViewModel> FromEntity(List<Doacao> doacoes)
+        {
+            return doacoes.Select(d => new DoacaoViewModel
+            {
+                Id = d.Id,
+                DoadorId = d.DoadorId,
+                DataDoacao = d.DataDoacao,
+                QuantidadeML = d.QuantidadeML
+            }).ToList();
+        }
+
+        //retorna um objeto
         public static DoacaoViewModel FromEntity(Doacao doacao)
         {
             return new DoacaoViewModel
@@ -23,5 +36,6 @@ namespace BloodBank.Application.Models.Doador
                 QuantidadeML = doacao.QuantidadeML
             };
         }
+
     }
 }

@@ -21,22 +21,20 @@ namespace BloodBank.Infrastructure.Services
         public async Task<List<DoacaoViewModel>> GetAll()
         {
             var doacoes = await _context.Doacoes.ToListAsync();
-            return doacoes.Select(DoacaoViewModel.FromEntity).ToList();
+            return DoacaoViewModel.FromEntity(doacoes);
         }
 
-        public async Task<DoacaoViewModel> Insert(CreateDoacaoInputModel inputModel)
+
+        public async Task<DoacaoViewModel> Insert(CreateDoacaoInputModel model)
         {
-            var doacao = new Doacao
-            {
-                DoadorId = inputModel.DoadorId,
-                DataDoacao = inputModel.DataDoacao,
-                QuantidadeML = inputModel.QuantidadeML
-            };
+            var doacao = model.ToEntity();
 
             _context.Doacoes.Add(doacao);
             await _context.SaveChangesAsync();
 
             return DoacaoViewModel.FromEntity(doacao);
         }
+
+        
     }
 }

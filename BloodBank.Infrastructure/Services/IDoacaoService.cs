@@ -10,5 +10,6 @@ namespace BloodBank.Infrastructure.Services
     {
         Task<List<DoacaoViewModel>> GetAll();
         Task<DoacaoViewModel> Insert(CreateDoacaoInputModel inputModel);
+        
     }
 }

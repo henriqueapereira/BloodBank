@@ -14,7 +14,7 @@ namespace BloodBank.Domain.Entities
         public string Logradouro { get; set; } = null!;
 
         [Required, MaxLength(100)]
-        public string Cidade { get; set; } = null!;
+        public string Cidade { get; set; } = null!; //localidade
 
         [Required, MaxLength(50)]
         public string Estado { get; set; } = null!;
